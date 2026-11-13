@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="toolevolution"
+version="1.0.0"
+displayName="Tool Evolution"
+description='''
+Adds modifiers that upgrade vanilla pickaxes, axes, shovels, hoes and swords (3 slots per tool).
+Добавляет модификаторы для обычных инструментов Minecraft (3 слота на инструмент).
+'''
+
+[[dependencies.toolevolution]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.2.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.toolevolution]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"

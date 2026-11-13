@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SRS",
+    "RGR",
+    "SRS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:spider_eye"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "G": {
+      "item": "minecraft:ghast_tear"
+    }
+  },
+  "result": {
+    "item": "toolevolution:vampirism",
+    "count": 1
+  }
+}
